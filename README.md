@@ -2,6 +2,7 @@
 Analysis of student behavior patterns when using large-scale public online learning
 
 **Introduction**
+
 The main aim of the research is to as much as possible identify patterns of student behaviour whilst solving mathematical problems using large-scale public online learning Junyi Academy. Additionally, it is important in reaching the goal to typologize students based on their socio-cultural characteristics and behaviour patterns. Moreover, analyze, in accordance with the identified types of students, their models of interaction within the framework of the "teacher-student" model.
 
 Necessary steps in achieving the goal after picking the dataset are: analysis of literature which can help us to understand the topic in a more general point of view,  data preparation with descriptive statistics networking and interpretation. 
