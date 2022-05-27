@@ -1,5 +1,4 @@
-# Project-for-AoSN
-Analysis of student behavior patterns when using large-scale public online learning
+# Analysis of student behavior patterns when using large-scale public online learning
 
 **Introduction**
 
