@@ -34,8 +34,15 @@ The dataset includes such information as age of the person, level attained withi
 
 **Results**
 
+At the first stage, we combined three datasets into one, cleaned it up, removed unnecessary variables, grouped data by users and calculated additional variables: "total and average number of problems that students encountered", "average time required to solve the problem", "total and average the number of hints used", "the total and average number of solved problems in which there were problems".
+
 <img width="1004" alt="image" src="https://user-images.githubusercontent.com/105935163/175204896-47c61c3a-b2c4-402f-bb64-7d924d944831.png">
 
+We have a fairly small dataset for the students, only 50 lines, because the additional information about tasks and problems made the dataset heavy and difficult to analyze. Therefore, the patterns that we identify on this dataset are preliminary and require additional analysis of more data using a more powerful computer.
+
+In our dataset, only one student is a teacher and has 16 students, two students have their own classes. Thus, students show little activity in relation to switching roles and becoming a teacher. At the same time, the number of teachers and the number of classes are related. A student who has a teacher is more likely to be in the class. The more teachers, the more students are in the number of classes.
+
+<img width="911" alt="image" src="https://user-images.githubusercontent.com/105935163/175210283-a38ab6cb-7bb1-4329-8bc9-86f159d503bf.png">
 
 
 **Conclusion**
