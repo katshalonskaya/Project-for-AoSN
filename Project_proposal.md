@@ -157,7 +157,7 @@ _Continuing with statistical indicators:_
 
 __________________________________________________________________________________________________________________________________________________________
 
-**Сlustering зкувшсешщт**
+**Сlustering**
 
 We also did some research on data clustering. Using all the variables available to us, we tried to cluster students according to their assessment on the platform. We combined the 12 rating levels into four based on the distribution of the "user_grade" variable. As a result, the significant variables that made it possible to cluster the data as close as possible to the original groups, reflecting the success of students through the "grade", were the variables the complexity of the tasks being solved, the city where the student lives, the number of awards that he received on the platform and the presence of a teacher. It is also worth noting that a fairly good model was obtained by replacing the variable about the presence of a teacher with a class membership variable.
 
