@@ -30,7 +30,13 @@ If one compares those articles above, it is clear that there is a certain patter
 
 The research dataset that was chosen for this project is from Junyi Academy - school of public online learning. It focuses on math students and solving math problems within the course. The overall number of observations within the dataset is 16,217,311, while the number of observed students equals 75728. With the help of random sampling the dataset was cut down to 9841 of observations and 50 students overall and it constitutes less than  0.0001% of all pupils. 
 
-The dataset includes such information as age of the person, level attained within a particular course, the status of the student according to the output from the exercises done, the amount of classes to which the user belongs. Additionally, it presents the data concerning teachers’ assistance: e.g how many teachers help, collaborative learning, when students exchange their position into teacher’s one. Based on the socio-cultural characteristics of the pupils and their behavioral patterns, it will be possible to typologize different kinds of students and with the help of that trace the interaction of the ‘teacher-student’ model.  
+The dataset includes such information as age of the person, level attained within a particular course, the status of the student according to the output from the exercises done, the amount of classes to which the user belongs. Additionally, it presents the data concerning teachers’ assistance: e.g how many teachers help, collaborative learning, when students exchange their position into teacher’s one. Based on the socio-cultural characteristics of the pupils and their behavioral patterns, it will be possible to typologize different kinds of students and with the help of that trace the interaction of the ‘teacher-student’ model. 
+
+**Results**
+
+<img width="1004" alt="image" src="https://user-images.githubusercontent.com/105935163/175204896-47c61c3a-b2c4-402f-bb64-7d924d944831.png">
+
+
 
 **Conclusion**
 
