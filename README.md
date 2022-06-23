@@ -34,15 +34,60 @@ The dataset includes such information as age of the person, level attained withi
 
 **Results**
 
+For the subsequent analysis of the activity and progress of students, we formed three graphs based on the dataset: the graph of students, the graph of tasks, and the graph of problems.
+
+**_1. Graphs of students that deal with the math problems_**
+
 At the first stage, we combined three datasets into one, cleaned it up, removed unnecessary variables, grouped data by users and calculated additional variables: "total and average number of problems that students encountered", "average time required to solve the problem", "total and average the number of hints used", "the total and average number of solved problems in which there were problems".
 
 <img width="1004" alt="image" src="https://user-images.githubusercontent.com/105935163/175204896-47c61c3a-b2c4-402f-bb64-7d924d944831.png">
 
 We have a fairly small dataset for the students, only 50 lines, because the additional information about tasks and problems made the dataset heavy and difficult to analyze. Therefore, the patterns that we identify on this dataset are preliminary and require additional analysis of more data using a more powerful computer.
 
-In our dataset, only one student is a teacher and has 16 students, two students have their own classes. Thus, students show little activity in relation to switching roles and becoming a teacher. At the same time, the number of teachers and the number of classes are related. A student who has a teacher is more likely to be in the class. The more teachers, the more students are in the number of classes.
+In our dataset, only one student is a teacher and has 16 students, two students have their own classes. Thus, students show little activity in relation to switching roles and becoming a teacher. At the same time, the number of teachers and the number of classes are related. A student who has a teacher is more likely to be in the class. The more teachers, the more students are in the number of classes. Based on our data, the social activity of students on the platform is more related to the number of tasks they solved and the problems they faced than to their academic performance.
 
 <img width="911" alt="image" src="https://user-images.githubusercontent.com/105935163/175210283-a38ab6cb-7bb1-4329-8bc9-86f159d503bf.png">
+
+_Now we will turn to the graph фтв start to describe of the core variables. 
+| The nodes of the graph are students who are interconnected based on what tasks they solved |_
+
+**User grade** (user_grade): the grade of the student, his level depending on the process of learning. Ranges from 1 to 12. Interestingly enough, the biggest share of the user grade pertains to the value of 4 and accounts for 30%, while 6 and 7 accounts for 18% and 14% correspondingly. Those with 4, 7 and 8 levels (black) are the most clasterized across other values. 6, on the contrary, is less clasterized and more disseminated. If contrasting with the belongness to the class, it is clear that students from a central purple cluster in the left lower side of those with level 4 also are subscribed in majority only to the 1 class, while those with level 7 from right blue cluster are as well partially subscribed to 1 class or 3 classes. 
+
+![image](https://user-images.githubusercontent.com/105935163/175212061-230d7cb9-f2f3-430e-8e77-f5d91dfd0467.png)
+
+**Points** (points): the number of points received by the student, assesses student’s performance. The number of points indeed varies, the overall quantity of the values equals 48, where the strongest student possesses more than 400.000 of points and the lowest number equals to 1050. Moreover, it is quite heterogeneous with little patterns. All students apart from 4 (for 4% percents accordingly), have a diverging number of points. 
+
+![image](https://user-images.githubusercontent.com/105935163/175212265-04305db6-e65c-4259-b4fa-df64b7cad989.png)
+
+**Teachers** (has_teacher_cnt): how many teachers does the student have. According to the graph, the majority of the students have only 1 teacher and this percentage accounts for 58% of all students. There are also 28% of pupils who do not have a teacher at all and 8% of those who have even two teachers. The rest are those with 3 and 5 instructors with 4% and 2% correspondingly. The cluster of those with 1 teacher can be found in the center and on the frontiers of the graph. What can be said from contrasting it with the user grade graph is that students with a level 4 in the lower leftly-center part are those with 1 teacher. Those with a level 7 in the right frontier can have a range from 1 to 3 and 5 teachers. While those at level 6 can have either 1 or no teachers at all, the distribution for that seems to be relatively equal. 
+
+![image](https://user-images.githubusercontent.com/105935163/175212420-95993578-f490-4352-aaf7-6a85b87856af.png)
+
+**Students** (has_student_cnt): how many students does the student (in the role of a teacher) have. There is a clear lack of participation, since the undeniable majority (98%) does have 0 students as a teacher, while only 2% have 16 students. 
+
+![image](https://user-images.githubusercontent.com/105935163/175212765-865647aa-90ed-4f4a-8585-a0b7ace7e820.png)
+
+**Classes** (has_class_cnt): the number of classes created by the student as a teacher. Here there is the same trend as with the amount of students on the behalf of the teacher. Majority of the pupils (96%) have not created any class, while only 2% and 2% created correspondingly 1 and 2 educational classes. _There is as well no clear patterns of connection between the teacher-student role and educational performance, grade or number of classes to which he or she belongs since the numbers are quite small to suppose any strong linkage._
+
+![image](https://user-images.githubusercontent.com/105935163/175213002-490c0627-2d09-437e-843d-7978c2ce802c.png)
+
+**Tasks** (uniq_zd): the number of unique tasks that was ‘opened’ by the student. The most popular and distributed number of tasks entered by the student accounts for 12% and it is a value of 3, while two other biggest share includes 2 and 6 tasks with 8% and 8% correspondingly. Generally, there is a range of 30 values related to the amount of unique tasks ‘opened’ by the pupils and it is hard to contrast the quantity of the tasks to other variables considered above since there is _no clear pattern or connection due to high heterogeneity. _
+
+![image](https://user-images.githubusercontent.com/105935163/175213184-08e06d80-2ca9-4083-908d-8cfe8b2a8fda.png)
+
+**Belongness** (belong_to_class_cnt): the number of classes, student groups to which the student belongs. The biggest share of students pertains to only 1 class or student groups and equals 48%, while 36% do not belong to any class and 10% are subscribed to 2 classes. There is also a smaller share of participants of 3 and 6 classes, 4% and 2% accordingly. 
+
+![image](https://user-images.githubusercontent.com/105935163/175213398-c36499c4-fcba-4afd-8fa5-86f565615b71.png)
+
+_Continuing with statistical indicators_
+
+**Degree of network.** It is the average number of connections the node has to other nodes. In this graph the _average degree equals 5.96 degrees_, therefore almost **6 connections** a node generally has to other nodes. Below can be found a degree distribution that shows the probability of the distribution of this degree across the network. Graph density **equals 0.122**, meaning that the graph _is not really _dense_ since it is closer to 0 than to 1. 
+
+![image](https://user-images.githubusercontent.com/105935163/175214064-2cd5d02f-5915-4473-9f75-d05a3b1905f7.png)
+
+**Network diameter.** The shortest distance between two most distant nodes in this graph is _estimated at value 6, while radius equals 0 and average path length equals approximately 2.65_. Below are presented both betweenness and closeness centrality distributions. 
+
+![image](https://user-images.githubusercontent.com/105935163/175214241-0b439fe1-d448-42c0-aa07-3574919a8915.png)
 
 
 **Conclusion**
