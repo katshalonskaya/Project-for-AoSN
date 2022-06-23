@@ -89,6 +89,20 @@ _Continuing with statistical indicators_
 
 ![image](https://user-images.githubusercontent.com/105935163/175214241-0b439fe1-d448-42c0-aa07-3574919a8915.png)
 
+![image](https://user-images.githubusercontent.com/105935163/175214577-1f989389-d63f-4812-9b33-e03307143f95.png)
+
+**Modularity.** Since it measures the strength of division of a network into modules, it provides clusters. In the case of this graph there are 4 strong clusters and 3 weak clusters that have no ties at all. There are 0, 3 and 5 cluster values with all 26% of the whole sample, while cluster 2 comprises 16% of the population taken. The modularity coefficient **equals 0.403** which means that _the strength of connections is somewhat lower than medium _(closer to 0 than to 1). 
+
+![image](https://user-images.githubusercontent.com/105935163/175214888-8c7bdb2b-a4f5-4de0-8694-01229323988a.png)
+
+**Average clustering coefficient.** In this graph the closeness of neighboring nodes is a bit smaller compared to the graph of tasks, but still can be considered as significant. It **equals 0.611** that allows us to assume that there _are medium ties between the nodes_ in the graph. The clustering coefficient distribution can be found below. 
+
+![image](https://user-images.githubusercontent.com/105935163/175215191-5997c2bd-95aa-4873-8889-9dfd84eb9c8e.png)
+
+ЗДЕСЬ НУЖЕН МИНИ ВЫВОД ПО ГРАФУ И ВСЕМУ
+
+**_2. Graphs of tasks where problems occurred while solving math problems across 50 students_**
+
 
 **Conclusion**
 
