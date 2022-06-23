@@ -32,6 +32,8 @@ The research dataset that was chosen for this project is from Junyi Academy - sc
 
 The dataset includes such information as age of the person, level attained within a particular course, the status of the student according to the output from the exercises done, the amount of classes to which the user belongs. Additionally, it presents the data concerning teachers’ assistance: e.g how many teachers help, collaborative learning, when students exchange their position into teacher’s one. Based on the socio-cultural characteristics of the pupils and their behavioral patterns, it will be possible to typologize different kinds of students and with the help of that trace the interaction of the ‘teacher-student’ model. 
 
+__________________________________________________________________________________________________________________________________________________________
+
 **Results**
 
 For the subsequent analysis of the activity and progress of students, we formed three graphs based on the dataset: the graph of students and the graph of tasks.
@@ -99,6 +101,8 @@ _Continuing with statistical indicators_
 
 ![image](https://user-images.githubusercontent.com/105935163/175215191-5997c2bd-95aa-4873-8889-9dfd84eb9c8e.png)
 
+__________________________________________________________________________________________________________________________________________________________
+
 **_2. Graphs of tasks where problems occurred while solving math problems across 50 students_**
 
 In the second step, we removed other variables from the combined data set, grouped the data by task, and calculated additional variables: “number of problems students encountered within the task”, “number of first-time problem solving”, “number of hints used within the task”. Using th table we have created a grapf. The nodes of the graph are tasks who are interconnected based on what students have solved them. The number of nodes are 659 task.
@@ -153,20 +157,8 @@ _Continuing with statistical indicators:_
 
 **ЗДЕСЬ НУЖЕН МИНИ ВЫВОД ПО ГРАФУ И ВСЕМУ**
 
-**Conclusion**
+__________________________________________________________________________________________________________________________________________________________
 
-In this project proposal we discussed the research route for the analysis of student behavior during online education in the public courses in the contemporary post-COVID 19 world. This project is supposed to be conducted with the application of Social Network Analysis (SNA). As given by literature review, the usage of SNA within the research on online education and student patterns is very stirring: almost the majority of sources contain SNA as a part of methods. However, the uniqueness of our perspective lies in the fact that we focus only on SNA as a core tool of analysis. We anticipate some weaknesses and strengths of such an approach, for instance, more focus on patterns compared to other works, while providing less flexibility in the interpretation. 
-
-The initial dataset for this research is taken from Junyi Academy and by dint of random sampling it was shortened down to 0.0001% of all cases and prepared for further exploratory and interpretive analysis. It gives information about the personal study characteristics of students such as his or her educational level and data on interaction of students with each other and role they are taking. With that, we would be able to distinguish patterns of student behavior during online education – the question which may facilitate the development of study plans and enhance overall pupils’ performance. 
-
-**Bibliography**
-1. Dowell, Nia M.M., and Oleksandra Poquet. «SCIP: Combining Group Communication and Interpersonal Positioning to Identify Emergent Roles in Scaled Digital Environments». Computers in Human Behavior 119 (June 2021): 106709. https://doi.org/10.1016/j.chb.2021.106709.
-2. Marcos-García, José-Antonio, Alejandra Martínez-Monés, and Yannis Dimitriadis. «DESPRO: A Method Based on Roles to Provide Collaboration Analysis Support Adapted to the Participants in CSCL Situations». Computers & Education 82 (March 2015): 335–53. https://doi.org/10.1016/j.compedu.2014.10.027.
-3. Saqr, Mohammed, and Ahmad Alamro. «The Role of Social Network Analysis as a Learning Analytics Tool in Online Problem Based Learning». BMC Medical Education 19, ed. 1 (December 2019): 160. https://doi.org/10.1186/s12909-019-1599-6.
-4. Wu, Jiun-Yu, and Mei-Wen Nian. «The Dynamics of an Online Learning Community in a Hybrid Statistics Classroom over Time: Implications for the Question-Oriented Problem-Solving Course Design with the Social Network Analysis Approach». Computers & Education 166 (June  2021): 104120. https://doi.org/10.1016/j.compedu.2020.104120.
-5. Wu, Xuemei, Zhenzhen He, Mingxi Li, Zhongmei Han, and Changqin Huang. «Identifying Learners’ Interaction Patterns in an Online Learning Community». International Journal of Environmental Research and Public Health 19, ed. 4 (16 of February 2022): 2245. https://doi.org/10.3390/ijerph19042245.
-
-___________________________________________________________________________________________________________________________________________________________
 **Additional Research: clustering**
 
 We also did some additional research on data clustering. Using all the variables available to us, we tried to cluster students according to their assessment on the platform. We combined the 12 rating levels into four based on the distribution of the "user_grade" variable. As a result, the significant variables that made it possible to cluster the data as close as possible to the original groups, reflecting the success of students through the "grade", were the variables the complexity of the tasks being solved, the city where the student lives, the number of awards that he received on the platform and the presence of a teacher. It is also worth noting that a fairly good model was obtained by replacing the variable about the presence of a teacher with a class membership variable.
@@ -181,4 +173,17 @@ _**Graph of level of grades**_
 
 ![image](https://user-images.githubusercontent.com/105935163/175223675-f7465a93-784d-41fc-ab7e-9c2c1dc1ccdd.png)
 
+__________________________________________________________________________________________________________________________________________________________
 
+**Conclusion**
+
+In this project proposal we discussed the research route for the analysis of student behavior during online education in the public courses in the contemporary post-COVID 19 world. This project is supposed to be conducted with the application of Social Network Analysis (SNA). As given by literature review, the usage of SNA within the research on online education and student patterns is very stirring: almost the majority of sources contain SNA as a part of methods. However, the uniqueness of our perspective lies in the fact that we focus only on SNA as a core tool of analysis. We anticipate some weaknesses and strengths of such an approach, for instance, more focus on patterns compared to other works, while providing less flexibility in the interpretation. 
+
+The initial dataset for this research is taken from Junyi Academy and by dint of random sampling it was shortened down to 0.0001% of all cases and prepared for further exploratory and interpretive analysis. It gives information about the personal study characteristics of students such as his or her educational level and data on interaction of students with each other and role they are taking. With that, we would be able to distinguish patterns of student behavior during online education – the question which may facilitate the development of study plans and enhance overall pupils’ performance. 
+
+**Bibliography**
+1. Dowell, Nia M.M., and Oleksandra Poquet. «SCIP: Combining Group Communication and Interpersonal Positioning to Identify Emergent Roles in Scaled Digital Environments». Computers in Human Behavior 119 (June 2021): 106709. https://doi.org/10.1016/j.chb.2021.106709.
+2. Marcos-García, José-Antonio, Alejandra Martínez-Monés, and Yannis Dimitriadis. «DESPRO: A Method Based on Roles to Provide Collaboration Analysis Support Adapted to the Participants in CSCL Situations». Computers & Education 82 (March 2015): 335–53. https://doi.org/10.1016/j.compedu.2014.10.027.
+3. Saqr, Mohammed, and Ahmad Alamro. «The Role of Social Network Analysis as a Learning Analytics Tool in Online Problem Based Learning». BMC Medical Education 19, ed. 1 (December 2019): 160. https://doi.org/10.1186/s12909-019-1599-6.
+4. Wu, Jiun-Yu, and Mei-Wen Nian. «The Dynamics of an Online Learning Community in a Hybrid Statistics Classroom over Time: Implications for the Question-Oriented Problem-Solving Course Design with the Social Network Analysis Approach». Computers & Education 166 (June  2021): 104120. https://doi.org/10.1016/j.compedu.2020.104120.
+5. Wu, Xuemei, Zhenzhen He, Mingxi Li, Zhongmei Han, and Changqin Huang. «Identifying Learners’ Interaction Patterns in an Online Learning Community». International Journal of Environmental Research and Public Health 19, ed. 4 (16 of February 2022): 2245. https://doi.org/10.3390/ijerph19042245.
