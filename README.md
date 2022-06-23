@@ -34,7 +34,7 @@ The dataset includes such information as age of the person, level attained withi
 
 **Results**
 
-For the subsequent analysis of the activity and progress of students, we formed three graphs based on the dataset: the graph of students, the graph of tasks, and the graph of problems.
+For the subsequent analysis of the activity and progress of students, we formed three graphs based on the dataset: the graph of students and the graph of tasks.
 
 **_1. Graphs of students that deal with the math problems_**
 
@@ -101,7 +101,7 @@ _Continuing with statistical indicators_
 
 **_2. Graphs of tasks where problems occurred while solving math problems across 50 students_**
 
-In the second step, we removed other variables from the combined data set, grouped the data by task, and calculated additional variables: “number of problems students encountered within the task”, “number of first-time problem solving”, “number of hints used within the task”. Using th table we have created a grapf. The nodes of the graph are tasks who are interconnected based on what students have solved them.
+In the second step, we removed other variables from the combined data set, grouped the data by task, and calculated additional variables: “number of problems students encountered within the task”, “number of first-time problem solving”, “number of hints used within the task”. Using th table we have created a grapf. The nodes of the graph are tasks who are interconnected based on what students have solved them. The number of nodes are 659 task.
 
 <img width="914" alt="image" src="https://user-images.githubusercontent.com/105935163/175218012-f5132289-507b-4a96-a0fb-ff960e2e38af.png">
 
