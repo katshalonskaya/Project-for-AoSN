@@ -71,7 +71,7 @@ _Now we will turn to the graph фтв start to describe of the core variables.
 
 ![image](https://user-images.githubusercontent.com/105935163/175213002-490c0627-2d09-437e-843d-7978c2ce802c.png)
 
-**Tasks** (uniq_zd): the number of unique tasks that was ‘opened’ by the student. The most popular and distributed number of tasks entered by the student accounts for 12% and it is a value of 3, while two other biggest share includes 2 and 6 tasks with 8% and 8% correspondingly. Generally, there is a range of 30 values related to the amount of unique tasks ‘opened’ by the pupils and it is hard to contrast the quantity of the tasks to other variables considered above since there is _no clear pattern or connection due to high heterogeneity. _
+**Tasks** (uniq_zd): the number of unique tasks that was ‘opened’ by the student. The most popular and distributed number of tasks entered by the student accounts for 12% and it is a value of 3, while two other biggest share includes 2 and 6 tasks with 8% and 8% correspondingly. Generally, there is a range of 30 values related to the amount of unique tasks ‘opened’ by the pupils and it is hard to contrast the quantity of the tasks to other variables considered above since there is _no clear pattern or connection due to high heterogeneity._
 
 ![image](https://user-images.githubusercontent.com/105935163/175213184-08e06d80-2ca9-4083-908d-8cfe8b2a8fda.png)
 
@@ -81,7 +81,7 @@ _Now we will turn to the graph фтв start to describe of the core variables.
 
 _Continuing with statistical indicators_
 
-**Degree of network.** It is the average number of connections the node has to other nodes. In this graph the _average degree equals 5.96 degrees_, therefore almost **6 connections** a node generally has to other nodes. Below can be found a degree distribution that shows the probability of the distribution of this degree across the network. Graph density **equals 0.122**, meaning that the graph _is not really _dense_ since it is closer to 0 than to 1. 
+**Degree of network.** It is the average number of connections the node has to other nodes. In this graph the _average degree equals 5.96 degrees_, therefore almost **6 connections** a node generally has to other nodes. Below can be found a degree distribution that shows the probability of the distribution of this degree across the network. Graph density **equals 0.122**, meaning that the graph _is not really dense_ since it is closer to 0 than to 1. 
 
 ![image](https://user-images.githubusercontent.com/105935163/175214064-2cd5d02f-5915-4473-9f75-d05a3b1905f7.png)
 
@@ -91,7 +91,7 @@ _Continuing with statistical indicators_
 
 ![image](https://user-images.githubusercontent.com/105935163/175214577-1f989389-d63f-4812-9b33-e03307143f95.png)
 
-**Modularity.** Since it measures the strength of division of a network into modules, it provides clusters. In the case of this graph there are 4 strong clusters and 3 weak clusters that have no ties at all. There are 0, 3 and 5 cluster values with all 26% of the whole sample, while cluster 2 comprises 16% of the population taken. The modularity coefficient **equals 0.403** which means that _the strength of connections is somewhat lower than medium _(closer to 0 than to 1). 
+**Modularity.** Since it measures the strength of division of a network into modules, it provides clusters. In the case of this graph there are 4 strong clusters and 3 weak clusters that have no ties at all. There are 0, 3 and 5 cluster values with all 26% of the whole sample, while cluster 2 comprises 16% of the population taken. The modularity coefficient **equals 0.403** which means that _the strength of connections is somewhat lower than medium_ (closer to 0 than to 1). 
 
 ![image](https://user-images.githubusercontent.com/105935163/175214888-8c7bdb2b-a4f5-4de0-8694-01229323988a.png)
 
@@ -99,15 +99,13 @@ _Continuing with statistical indicators_
 
 ![image](https://user-images.githubusercontent.com/105935163/175215191-5997c2bd-95aa-4873-8889-9dfd84eb9c8e.png)
 
-ЗДЕСЬ НУЖЕН МИНИ ВЫВОД ПО ГРАФУ И ВСЕМУ
-
 **_2. Graphs of tasks where problems occurred while solving math problems across 50 students_**
 
 In the second step, we removed other variables from the combined data set, grouped the data by task, and calculated additional variables: “number of problems students encountered within the task”, “number of first-time problem solving”, “number of hints used within the task”. Using th table we have created a grapf. The nodes of the graph are tasks who are interconnected based on what students have solved them.
 
 <img width="914" alt="image" src="https://user-images.githubusercontent.com/105935163/175218012-f5132289-507b-4a96-a0fb-ff960e2e38af.png">
 
-_Starting with the description of the core variables: _
+_Starting with the description of the core variables:_
 
 **Correctness from the first trial** (correct_ctn_first): how many times the students managed to resolve the task from the first trial successfully. The range goes from 0 times to 50 with certain lacunas as a maximum point. The most significant weight is pertained to 0 (19.79%), 1 (18.42%) and 2 (14%). Relatively significant also 3, 4, 5 with 9.89, 7.15 and 6.24% correspondingly. They are colored in black, orange and pink. What can be concluded from the network is that the majority of students managed to solve the task from the first attempt only a few times, while almost 20% did not manage to solve any math problem from the first attempt at all. From the graph it appears that the first option of 0 times is the most clasterized option, it can be found in the biggest central cluster and in the one on the right corner side. 
 
@@ -125,13 +123,35 @@ _Starting with the description of the core variables: _
 
 ![image](https://user-images.githubusercontent.com/105935163/175219836-4ec6dd92-86e4-49a7-b937-3d7d4f1ff5e2.png)
 
-**Level of difficulty** (difficulty): how difficult was the task according to the students’ perception. Either 0, 1, 2 or 3, which corresponds to easy, medium, difficult levels and being not sure (3). The biggest share of students are sure that the task is easy (67.58%), while 21% of them consider it difficult. This divergence is particularly surprising since the students’ perception of the math task as having a medium level of difficulty is only 7.76% of the whole sample. Therefore, the task is mostly perceived to be either difficult or easy. Those who were not sure about the task’s complexity accounted for 3.65%. Few insights can be grasped. Firstly, difficult and medium levels are concentrated in the center of the clusters and are highly connected to each other, while those with the perception of tasks being easy are located as well on the frontiers of the graph (left side). The lower right cluster is the _group of students who are less inclined to perceive the task as an easy one, they are mostly not sure or see it as complex and it corresponds to the group of students who encounter ~5 problems, use 5 hints, pertain to junior stage and are not able to deal successfully with the task from the first trial. It is the most diverged cluster out of all._ Those who are located in the left central frontiers and use as well 5 hints found the task easy and pertained to elementary learning level. Moreover, _generally those at junior level of education are less inclined to view the task as of medium difficulty than those at elementary level, while difficulty ratio itself is slightly less at junior level in contrast to elementary (the most lower right cluster). _Given the same junior level of learning for the right cluster and the most lower right cluster, it is striking that difficulty perception is not homogeneous, thus one can only argue for small dependance of it on the learning stage, except for the second mentioned cluster (which is bigger). 
+**Level of difficulty** (difficulty): how difficult was the task according to the students’ perception. Either 0, 1, 2 or 3, which corresponds to easy, medium, difficult levels and being not sure (3). The biggest share of students are sure that the task is easy (67.58%), while 21% of them consider it difficult. This divergence is particularly surprising since the students’ perception of the math task as having a medium level of difficulty is only 7.76% of the whole sample. Therefore, the task is mostly perceived to be either difficult or easy. Those who were not sure about the task’s complexity accounted for 3.65%. Few insights can be grasped. Firstly, difficult and medium levels are concentrated in the center of the clusters and are highly connected to each other, while those with the perception of tasks being easy are located as well on the frontiers of the graph (left side). The lower right cluster is the _group of students who are less inclined to perceive the task as an easy one, they are mostly not sure or see it as complex and it corresponds to the group of students who encounter ~5 problems, use 5 hints, pertain to junior stage and are not able to deal successfully with the task from the first trial. It is the most diverged cluster out of all._ Those who are located in the left central frontiers and use as well 5 hints found the task easy and pertained to elementary learning level. Moreover, _generally those at junior level of education are less inclined to view the task as of medium difficulty than those at elementary level, while difficulty ratio itself is slightly less at junior level in contrast to elementary (the most lower right cluster). _Given the same junior level of learning for the right cluster and the most lower right cluster, it is striking that difficulty perception is not homogeneous, thus one can only argue for small dependance of it on the learning stage, except for the second mentioned cluster (which is bigger)._ 
 
 ![image](https://user-images.githubusercontent.com/105935163/175220195-f2f33257-c150-43a8-8d73-701c06575f0e.png)
 
-_Continuing with statistical indicators: _
+_Continuing with statistical indicators:_
 
+**Average degree of the network.** This is the average number of connections the node has to other nodes, while degree distribution is the probability distribution of these degrees over the whole network. The overall number of degrees involves 126 values that are distributed within the network. The biggest frequency of degree pertains to 0 connections and it accounts for 19.03%. Other visible big groups include the degree of 96 connections (5.48%), 37 (3.81%), 46 (3.2%), 35 (3.04%), 123 (3.04%) and other less significant clusters below 3% of the sample. According to the degree distribution report, **the average degree** of our network **equals 92.357**.
 
+![image](https://user-images.githubusercontent.com/105935163/175221110-121208bb-dad9-48cf-887d-323f041f6b90.png)
+
+![image](https://user-images.githubusercontent.com/105935163/175221139-20c99d93-119d-471f-8845-c28b7df09988.png)
+
+**Network diameter.** This is the shortest distance between the two most distant nodes of the network. _The diameter of our network **equals 4**, while the radius and average path length account **for 3 and 2.223 accordingly**._ The distribution of betweenness and closeness centralities can be found below, which is the amount of others’ dependence on a certain node and control and measure of independence from possible control (in case of betweenness). 
+
+![image](https://user-images.githubusercontent.com/105935163/175221189-8f899089-7de5-4cb3-bfa0-378e08cc7b9d.png)
+
+![image](https://user-images.githubusercontent.com/105935163/175221245-da66b46d-06c0-45af-be81-7fdbff206973.png)
+
+**Graph density.** It shows the ratio of existing edges and maximum number of possible edges in the graph. In our graph it **equals 0.173** which means that it **is not really dense**, since minimal density starts from 0 and goes till 1. 
+
+**Modularity.** This measure indicates the strengths of division of a network into modules. In the case of our graph it was _divided into **6 core** clusters_, while the value of modularity is estimated at **0.502**. _This means that the graph has relatively medium strength of community structure – it is not random >0, but not close to 1._ In the graph below the clusters can be identified. Although, three of them are almost equal, the biggest one is on the right side, which as well relates to the junior stage of learning and accounts for 23.9% of all samples, while the most down right cluster that also involves juniors is considered to be second with 23.14%. The central blue left cluster is estimated at 22.98%. While two upper and one most down left clusters are smaller and accordingly equals 13.24%, 10.81% and 5.94%. Generally, in contrast to conventional wisdom, size of the clusters are different from the size’s appearance, thus two most lower clusters seem to be relatively equal, but in fact far divergent. The blue and purple clusters, if considering previous graphs and variables, are the most distinct in the way of tracing the patterns of student behavior, while the others are more heterogeneous across the variables, though some exceptions are present.
+
+![image](https://user-images.githubusercontent.com/105935163/175221286-034bce6f-d5ea-4a08-9f19-e745eb20e9f2.png)
+
+**Average clustering coefficient.** It helps to define how close the neighboring nodes are to being a complete graph or how they try to cluster together. _In our graph the average clustering coefficient equals **0.793**, which allows us to assume that we have relatively strong ties between the nodes._ The clustering coefficient distribution of values can be found below.
+
+![image](https://user-images.githubusercontent.com/105935163/175221333-49d13606-a998-457a-8831-0ee628bf2b78.png)
+
+**ЗДЕСЬ НУЖЕН МИНИ ВЫВОД ПО ГРАФУ И ВСЕМУ**
 
 **Conclusion**
 
