@@ -169,7 +169,16 @@ The initial dataset for this research is taken from Junyi Academy and by dint of
 ___________________________________________________________________________________________________________________________________________________________
 **Additional Research: clustering**
 
+We also did some additional research on data clustering. Using all the variables available to us, we tried to cluster students according to their assessment on the platform. We combined the 12 rating levels into four based on the distribution of the "user_grade" variable. As a result, the significant variables that made it possible to cluster the data as close as possible to the original groups, reflecting the success of students through the "grade", were the variables the complexity of the tasks being solved, the city where the student lives, the number of awards that he received on the platform and the presence of a teacher. It is also worth noting that a fairly good model was obtained by replacing the variable about the presence of a teacher with a class membership variable.
 
+Thus, it was not possible to predict student performance based on the variables associated with the change in the role of the teacher-student. At the same time, the model included or could include variables related to the activity of students as students. However, the main role was still played by the variable difficulty of the task and the number of awards received on the online platform.
 
+**_Cluster Graph_**
+
+![image](https://user-images.githubusercontent.com/105935163/175223522-625d2991-dd04-491f-886e-3ce5f3073ae4.png)
+
+_**Graph of level of grades**_
+
+![image](https://user-images.githubusercontent.com/105935163/175223675-f7465a93-784d-41fc-ab7e-9c2c1dc1ccdd.png)
 
 
